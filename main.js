@@ -34,3 +34,6 @@ function Offers(){
 function BannerClick(){
   window.location="Festival.html";
 }
+function HomePage(){
+  window.location="home.html";
+}

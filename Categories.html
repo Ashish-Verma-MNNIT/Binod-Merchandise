@@ -5,8 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Categories</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>Categories</p>
+    <div class="header">
+        <img src="logo.jpg" id="logo" alt="logo">
+        <h1 class="heading">Binod Merchandise</h1>
+    </div>
+    <button class="HomePage" onclick="HomePage()">←HomePage</button>
+    <h1 class="heading">Shop by category...</h1>
+    <p class="para">Here are the Categories, choose that matches you the best.</p>
+    <div class="Categories">
+        <h2>Happy shopping</h2>
+        <div class="cat">
+            <div class="product" onclick="MensWear()">
+                <img src="CatMen.jpg" alt="cat1" class="catImg">
+                <div class="ratings">&#11088&#11088&#11088&#11088+</div>
+                <div class="productName">Men's Wear <em>starts ₹ 400</em></div>
+            </div>
+            <div class="product" onclick="WomensWear()">
+                <img src="CatWomen.jpg" alt="cat2" class="catImg">
+                <div class="ratings">&#11088&#11088&#11088&#11088+</div>
+                <div class="productName">Women's Wear <em>starts ₹ 400</em></div>
+            </div>
+            <div class="product" onclick="KidsWear()">
+                <img src="CatKids.jpg" alt="cat3" class="catImg">
+                <div class="ratings">&#11088&#11088+</div>
+                <div class="productName">Kids' wear <em>starts ₹ 500</em></div>
+            </div>
+            <div class="product" onclick="Sunglasses()">
+                <img src="CatSunglasses.jpg" alt="cat4" class="catImg">
+                <div class="ratings">&#11088&#11088&#11088&#11088+</div>
+                <div class="productName">Sunglasses <em>starts ₹ 450</em></div>
+            </div>
+            <div class="product" onclick="Bags()">
+                <img src="CatBags.jpg" alt="cat5" class="catImg">
+                <div class="ratings">&#11088&#11088&#11088+</div>
+                <div class="productName">Bags & Luggages <em>starts ₹ 699</em></div>
+            </div>
+            <div class="product" onclick="Sports()">
+                <img src="CatSportsWear.jpg" alt="cat6" class="catImg">
+                <div class="ratings">&#11088&#11088&#11088&#11088+</div>
+                <div class="productName">Sports' Wear <em>starts ₹ 999</em></div>
+            </div>
+        </div>
+    </div>
+    <div class="thanks">Thankyou&#128591&#128591<br>
+        Visit Again...&#128075</div>
+
+<script src="main.js"></script>
 </body>
 </html>

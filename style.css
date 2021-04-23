@@ -168,6 +168,64 @@ input{
     bottom:15px;
     left:15px;
 }
+.Subscribe:hover{
+    cursor: pointer;
+    background-color: rgb(4, 4, 56);
+}
+.Subscribe:active{
+    cursor: progress;
+    background-color: black;
+}
 .thanks{
     text-align: center;
+}
+
+
+.para{
+    margin: 3px 4px 10px 4px;
+    text-align: center;
+    color: white;
+    background-color: rgb(95, 228, 77);
+}
+
+.HomePage{
+    position: sticky;
+    top:5px;
+    left: 7px;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+}
+.HomePage:hover{
+    cursor: pointer;
+    border:1px solid white;
+}
+.HomePage:active{
+    cursor: progress;
+}
+.cartThings{
+    text-align: center;
+    margin:5px auto;
+    padding: 10px 0;
+    background-color: rgb(55, 233, 49);
+}
+.OrderCart{
+    margin:auto;
+    background-color: blueviolet;
+    color: white;
+    font-size: 22px;
+}
+.OrderCart:hover{
+    border:2px solid white;
+    background-color: blue;
+    cursor: pointer;
+}
+.OrderCart:active{
+    background-color: black;
+    cursor: progress;
+}
+.FeaturingImg{
+    text-align: center;
+    background-color: gold;
+    margin: 40px 4px;
 }
