@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Binod Merchandise-Homepage</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="header">
@@ -14,14 +14,14 @@
     </div>
     <div class="tagline">for one and all..</div>
     <div class="navigation">
-        <div class="nav"><link class="navLink" href="#">Offers</link></div>
-        <div class="nav"><link class="navLink" href="#">Categories</link></div>
-        <div class="nav"><link class="navLink" href="#">Top Charts</link></div>
-        <div class="nav"><link class="navLink" href="#">Featured</link></div>
-        <div class="nav"><link class="navLink" href="#">Cart</link></div>
+        <div class="nav" onclick="Offers()"><link class="navLink" href="#">Offers</link></div>
+        <div class="nav" onclick="Categories()"><link class="navLink" href="#">Categories</link></div>
+        <div class="nav" onclick="TopCharts()"><link class="navLink" href="#">Top Charts</link></div>
+        <div class="nav" onclick="Featured()"><link class="navLink" href="#">Featured</link></div>
+        <div class="nav" onclick="Cart()"><link class="navLink" href="#">Cart</link></div>
         <div class="navS"><input type="search" placeholder="Search" size="9"></div>
     </div>
-    <div class="banner">
+    <div class="banner" onclick="BannerClick()">
     <img src="./Main_banner.jpg" alt="Banner" id="bannerImg">
     </div>
 
@@ -101,32 +101,32 @@
     <div class="Categories">
         <h2>Categories</h2>
         <div class="cat">
-            <div class="product">
+            <div class="product" onclick="MensWear()">
                 <img src="CatMen.jpg" alt="cat1" class="catImg">
                 <div class="ratings">&#11088&#11088&#11088&#11088+</div>
                 <div class="productName">Men's Wear <em>starts ₹ 400</em></div>
             </div>
-            <div class="product">
+            <div class="product" onclick="WomensWear()">
                 <img src="CatWomen.jpg" alt="cat2" class="catImg">
                 <div class="ratings">&#11088&#11088&#11088&#11088+</div>
                 <div class="productName">Women's Wear <em>starts ₹ 400</em></div>
             </div>
-            <div class="product">
+            <div class="product" onclick="KidsWear()">
                 <img src="CatKids.jpg" alt="cat3" class="catImg">
                 <div class="ratings">&#11088&#11088+</div>
                 <div class="productName">Kids' wear <em>starts ₹ 500</em></div>
             </div>
-            <div class="product">
+            <div class="product" onclick="Sunglasses()">
                 <img src="CatSunglasses.jpg" alt="cat4" class="catImg">
                 <div class="ratings">&#11088&#11088&#11088&#11088+</div>
                 <div class="productName">Sunglasses <em>starts ₹ 450</em></div>
             </div>
-            <div class="product">
+            <div class="product" onclick="Bags()">
                 <img src="CatBags.jpg" alt="cat5" class="catImg">
                 <div class="ratings">&#11088&#11088&#11088+</div>
                 <div class="productName">Bags & Luggages <em>starts ₹ 699</em></div>
             </div>
-            <div class="product">
+            <div class="product" onclick="Sports()">
                 <img src="CatSportsWear.jpg" alt="cat6" class="catImg">
                 <div class="ratings">&#11088&#11088&#11088&#11088+</div>
                 <div class="productName">Sports' Wear <em>starts ₹ 999</em></div>
@@ -137,11 +137,14 @@
     <div class="footer">
         <div class="subcribe">Subscribe to our newsletter and get to know 
         about our latest product!! </div>
-        <form>
-            <input type="email" placeholder="E-mail" name="email" required><br>
-            <input type="tel" placeholder="phone" name="phone" required><br>
-            <button type="submit">Subscribe</button>
+        <form action="Subscribed.html">
+            <input type="email" placeholder="E-mail" name="email" required>              
+            <input type="tel" placeholder="phone" name="phone" required>               
+            <button type="submit" class="Subscribe">Subscribe</button>
         </form>
+        <div class="thanks">Thankyou&#128591&#128591<br>
+            Visit Again...&#128075</div>
     </div>
+    <script src="main.js"></script>
 </body>
 </html>
