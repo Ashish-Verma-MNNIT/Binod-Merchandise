@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(7, 240, 182, 0.24);
+    font-family: cursive;
+    font-size: 25px;
+}
+.header{
+    background-color: rgb(181, 239, 241);
+    margin:3px 4px 0 4px;
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+#logo{
+    padding:10px 0 0 10px;
+    height:80px;
+    width: 20%;
+    align-self: flex-start;
+}
+
+.heading{
+    display: inline-block;
+    font-size: 35px;
+    padding-left: 40px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: cursive;
+    color:rgb(238, 28, 13);
+    justify-self: center;
+}
+.tagline{
+    background-color:rgb(181, 239, 241);
+    margin: 0 4px 2px 4px;
+    text-align: right;
+    padding-right: 50px;
+    font-size: 20px;
+    color: rgb(255, 8, 0);
+    font-family: cursive;
+}
+.navigation{
+    margin:1px 4px;
+    background-color: blue;
+    color:floralwhite;
+    display: flex;
+    text-align: center;
+    position: sticky;
+    top: 1px;
+}
+.nav{
+    flex: auto;
+    font-size: 17px;
+    font-weight: normal;
+    padding: 10px 0;
+    
+}
+.navS{
+    flex:auto;
+    font-size: 20px;
+}
+#bannerImg{
+    width: 100%;
+    height: auto;
+}
+.banner{
+    margin:8px 4px 1px 4px;
+}
+.todaySpecial{
+    color:blue;
+    background-color: rgb(160, 240, 180);
+    margin: 5px 4px;
+}
+h2{
+    font-weight: normal;
+    font-size: 30px;
+}
+.Latest{
+    color:rgb(151, 8, 87);
+    background-color: rgb(235, 174, 225);
+    margin: 5px 4px;
+}
+.Categories{
+    color:rgb(255, 0, 0);
+    background-color: rgb(223, 215, 102);
+    margin: 5px 4px;
+}
+.LatestImg, .SpecialImg, .cat{
+    display: flex;
+    flex-wrap: wrap;
+}
+.latImg,.catImg{
+    width: 100%;
+    padding:2px;
+}
+.splImg{
+    width:100%;
+    padding:2.5px;
+    
+}
+h2{
+    text-align:center;
+    margin: 20px;
+    padding: 3px;
+    font-size: 40px;
+    text-decoration: dashed underline;
+}
+.nav:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+    border: 0.5px solid white;
+}
+.nav:active{
+    cursor: progress;
+    background-color: rgb(0, 1, 17);
+}
+.ratings{
+    width: 33%;
+    
+    font-size: 15px;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    margin-bottom: 50px;
+}
+.product:hover{
+    border: 1px solid rgb(248, 244, 3);
+    cursor: pointer;
+}
+.productName{
+    width:100%;
+    text-align: center;
+}
+em{
+    color:deeppink;
+}
+
+
+.footer{
+    background-color:rgb(184, 245, 93);
+    color:darkblue;
+    margin: 10px 4px;
+    padding: 4px;
+}
+input{
+    font-size: 15px;
+    font-family: monospace;
+    margin-bottom: 3px;
+}
