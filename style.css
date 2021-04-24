@@ -227,5 +227,13 @@ input{
 .FeaturingImg{
     text-align: center;
     background-color: gold;
-    margin: 40px 4px;
+    margin: 40px auto;
+    width: 40%;
+}
+.FeaturingImg:hover{
+    cursor: pointer;
+    border: 2.5px solid white;
+}
+.FeaturingImg:active{
+    cursor: progress;
 }
