@@ -23,7 +23,6 @@ body{
 .heading{
     display: inline-block;
     font-size: 35px;
-    padding-left: 40px;
     margin: 0 auto;
     text-transform: uppercase;
     font-style: italic;
@@ -51,15 +50,12 @@ body{
 }
 .nav{
     flex: auto;
-    font-size: 17px;
+    font-size: 14px;
     font-weight: normal;
-    padding: 10px 0;
+    padding: 8px 0;
     
 }
-.navS{
-    flex:auto;
-    font-size: 20px;
-}
+
 #bannerImg{
     width: 100%;
     height: auto;
@@ -226,9 +222,8 @@ input{
 }
 .FeaturingImg{
     text-align: center;
-    background-color: gold;
+    background-color: rgb(29, 243, 76);
     margin: 40px auto;
-    width: 40%;
 }
 .FeaturingImg:hover{
     cursor: pointer;
