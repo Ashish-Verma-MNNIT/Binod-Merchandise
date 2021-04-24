@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+
+<!-- This is the homepage of Binod's website. 
+All the images are downloaded from google, some may be copyright, I have not
+filtered.-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,10 +14,11 @@
 </head>
 <body>
     <div class="header">
+        <!-- division to show name and logo, this will be same in all pages -->
         <img src="logo.jpg" id="logo" alt="logo">
         <h1 class="heading">Binod Merchandise</h1>
     </div>
-    <div class="tagline">for one and all..</div>
+    <div class="tagline">for one and all..</div>  <!-- tagline -->
     <div class="navigation">
         <div class="nav" onclick="Offers()"><link class="navLink" href="#">Offers</link></div>
         <div class="nav" onclick="Categories()"><link class="navLink" href="#">Categories</link></div>
@@ -23,10 +28,10 @@
         <div class="nav" style="font-size: 12px;"><input type="search" placeholder="Search" size="7"></div>
     </div>
     <div class="banner" onclick="BannerClick()">
-    <img src="./Main_banner.jpg" alt="Banner" id="bannerImg">
+    <img src="./Main_banner.jpg" alt="Banner" id="bannerImg">  <!-- banner -->
     </div>
 
-
+   <!--  now different Categories follows with some clickable images-->
     <div class="todaySpecial">
         <h2>Today's Special</h2>
         <div class="SpecialImg">
@@ -135,7 +140,7 @@
         </div>
     </div>
     
-    <div class="footer">
+    <div class="footer">  <!-- this division shows options to Subscribe to newsletter -->
         <div class="subcribe">Subscribe to our newsletter and get to know 
         about our latest product!! </div>
         <form action="Subscribed.html">
@@ -143,7 +148,7 @@
             <input type="tel" placeholder="phone" name="phone" required>               
             <button type="submit" class="Subscribe">Subscribe</button>
         </form>
-        <div class="thanks">Thankyou&#128591&#128591<br>
+        <div class="thanks">Thankyou&#128591&#128591<br>  <!-- thankyou area and will be same in all pages-->
             Visit Again...&#128075</div>
     </div>
     <script src="main.js"></script>

@@ -1,12 +1,15 @@
+/* this is the only stylesheet / css file for the whole project 
+not having a good color sense :( bear it*/
+
 *{
-    box-sizing: border-box;
+    box-sizing: border-box;   /* easy to assign dimension if they are border box. so.. */
 }
 body{
     background-color: rgba(7, 240, 182, 0.24);
     font-family: cursive;
     font-size: 25px;
 }
-.header{
+.header{                                    /* remember the name and logo area */
     background-color: rgb(181, 239, 241);
     margin:3px 4px 0 4px;
     margin-top: 10px;
@@ -14,14 +17,14 @@ body{
     align-items: flex-end;
 }
 #logo{
-    padding:10px 0 0 10px;
+    padding:10px 0 0 10px;              /* logo */
     height:80px;
     width: 20%;
     align-self: flex-start;
 }
 
 .heading{
-    display: inline-block;
+    display: inline-block;              /* name i.e. Binod Merchandise */
     font-size: 35px;
     margin: 0 auto;
     text-transform: uppercase;
@@ -31,7 +34,7 @@ body{
     justify-self: center;
 }
 .tagline{
-    background-color:rgb(181, 239, 241);
+    background-color:rgb(181, 239, 241);     /* tagline i.e. for one and all.. */
     margin: 0 4px 2px 4px;
     text-align: right;
     padding-right: 50px;
@@ -41,8 +44,8 @@ body{
 }
 .navigation{
     margin:1px 4px;
-    background-color: blue;
-    color:floralwhite;
+    background-color: blue;                 /* uff!! commenting after writing whole code */
+    color:floralwhite;                        /* tedius task */
     display: flex;
     text-align: center;
     position: sticky;

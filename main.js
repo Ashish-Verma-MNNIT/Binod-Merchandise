@@ -1,3 +1,9 @@
+/* this is the only javascript file 
+and I have not read much javascript yet so 
+the whole file contains only one type of function :)
+just for moving from one page to other.. */
+
+
 function MensWear(){
   window.location="MensWear.html";
 }
