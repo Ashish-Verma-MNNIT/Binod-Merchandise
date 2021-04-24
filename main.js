@@ -41,5 +41,5 @@ function BannerClick(){
   window.location="Festival.html";
 }
 function HomePage(){
-  window.location="home.html";
+  window.location="index.html";
 }
